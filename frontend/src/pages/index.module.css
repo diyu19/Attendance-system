@@ -27,10 +27,70 @@
     background-color: white;
 }
 .startbtn{
-    background-color: skyblue;
-    border: none;
+    background-color: rgb(186, 226, 241);
+    border: 0.5px solid black;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
     color: white;
+    
+}
+.LoginPage{
+    background-image: url("../../public/images/setBright.jpg");
+    background-position: center;
+    background-size: full;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerContent{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerContent .p{
+    font-size: 10px;
+    margin-top: -10px
+}
+.centerSelect{
+    padding: 10px;
+    width: 95%;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid gold;
+    outline: none 
+}
+.centerContent input{
+    padding: 10px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid gold;
+    outline: none
+}
+.centerContent input:focus{
+    outline: none;
+    border:1px solid gold;
+}
+.btnSubmit{
+    width: 90%;
+    background-color: gold;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.signUp{
+    color: navy;
+    text-decoration: none;
+}
+.signUp:hover{
+    text-decoration: underline;
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import style from "./index.module.css"
+import Navbar from '../component/Navbar.tsx'
 const Home = () => {
   return (
     <div className={style.abcs}>
+      <Navbar/>
         <div className={style.container}>
             <div className={style.assessment}>
                 <h1> Start Your AssessMent with Great Institute!</h1>
