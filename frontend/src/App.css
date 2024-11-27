@@ -1,0 +1,17 @@
+.AppInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.AppInfo ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+.AppInfo ul li{
+    margin: 20px;
+}
+.AppInfo p{
+    margin-top: 40px;
+}

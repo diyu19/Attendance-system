@@ -1,0 +1,36 @@
+.abcs{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.container{
+    background-image: url("../../public/images/mugImg.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.assessment{
+    width: 30%;
+    margin-left: 30px;
+    
+
+}.assessment p{
+    font-size: 10px;
+}
+.content{
+    height: 50vh;
+    background-color: white;
+}
+.startbtn{
+    background-color: skyblue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
